@@ -1,0 +1,89 @@
+.content {
+    margin-top: 54px;
+    }
+    .header {
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    }
+    .left-title {
+    width: 80px;
+    color: #fff;
+    font-size: 18px;
+    float: left;
+    }
+    .right-title {
+    width: 150px;
+    text-align: right;
+    float: right;
+    color: #fff;
+    }
+    .quiz-body {
+    margin-top: 15px;
+    padding-bottom: 50px;
+    }
+    .option-block-container {
+    margin-top: 20px;
+    max-width: 420px;
+    }
+    .option-block {
+    padding: 10px;
+    background: aliceblue;
+    border: 1px solid #84c5fe;
+    margin-bottom: 10px;
+    cursor: pointer;
+    }
+    .result-question {
+    font-weight: bold;
+    }
+    .c-wrong {
+    margin-left: 20px;
+    color: #ff0000;
+    }
+    .c-correct {
+    margin-left: 20px;
+    color: green;
+    }
+    .last-row {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    }
+    .res-header {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    }
+
+    .favorite{
+        
+            border: 0;
+            line-height: 2.5;
+            padding: 0 200px ;
+            margin-bottom: 20px;
+            font-size: 1rem;
+            text-align: center;
+            color: #fff;
+            text-shadow: 1px 1px 1px #000;
+            border-radius: 10px;
+            background-color: rgb(81, 175, 238);
+            background-image: linear-gradient(to top left,
+                                              rgba(0, 0, 0, .2),
+                                              rgba(0, 0, 0, .2) 30%,
+                                              rgba(0, 0, 0, 0));
+            box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                        inset -2px -2px 3px rgba(0, 0, 0, .6);
+        }
+        
+        .styled:hover {
+            background-color: rgb(148, 166, 199);
+        }
+        
+        .styled:active {
+            box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                        inset 2px 2px 3px rgba(0, 0, 0, .6);
+        }
+        
+   
